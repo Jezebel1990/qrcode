@@ -4,9 +4,11 @@ const promptSchemaDocs = [
   {
     name: "type",
     description: chalk.yellow.bold(
-      "Escolha o tipo de documento (1- CPF ou (2- CNPJ"
+      "Escolha o tipo de documento:\n" +  
+      "(1- CPF\n" +  
+      "(2- CNPJ\n"
     ),
-    pattern: /^[1-2]$/, // aceita apenas 1 ou 2
+    pattern: /^[1-2]+$/, // aceita apenas 1 ou 2
     message: chalk.red.italic("Digite apenas 1 (CPF) ou 2 (CNPJ)"),
     required: true,
   },

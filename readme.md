@@ -1,4 +1,4 @@
-# Gerador de QRcode para e-commerce
+# 🧰 Gerador de QRcode para e-commerce
 
 <table>
         <tr>
@@ -19,7 +19,7 @@ Atualmente, o projeto conta com:
 - **Gerador de Senhas Seguras**  
 - **Validador de CPFs e CNPJs**  
 
-## Funcionalidades
+## 🚀 Funcionalidades
 ✔️ Gerar QR Codes para links de produtos, campanhas ou integrações.
 ✔️ Criar senhas seguras utilizando caracteres personalizados.
 ✔️ Validar CPFs e CNPJs para cadastros de clientes e fornecedores.
@@ -39,26 +39,17 @@ Atualmente, o projeto conta com:
 2. **Clone o repositório**  
    ```bash
    git clone https://github.com/Jezebel1990/qrcode.git
-  ```
+ 
+3. **Acesse a pasta do projeto:** 
+`cd qrcode`
 
-3. Acesse a pasta do projeto:
-```bash
-cd qrcode
-```
+4. **Instale as dependências**
+`npm install`
 
-4. Instale as dependências
-```bash
-npm install
-```
+5. **Configure o arquivo .env (use o .env.example como base)**
 
-5. Configure o arquivo .env (use o .env.example como base)
-
-
-6. Execute o projeto:
-```bash
-npm run start
-```
-
+6. **Execute o projeto:**
+`npm run start`
 
 
 Feito com ♥ por [Jezebel Guedes](https://www.linkedin.com/in/jezebel-guedes/) 👋 Entre em contato!
